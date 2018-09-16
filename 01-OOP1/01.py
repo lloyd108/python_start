@@ -36,3 +36,5 @@ bingbing = PythonStudent()
 # 注意成员函数的调用没有传递进入参数
 bingbing.doHomework()
 print(bingbing.age)
+print(bingbing.name)
+print(bingbing.course)
