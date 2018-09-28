@@ -1,6 +1,6 @@
-'''
+"""
 exercise of for loop
-'''
+"""
 
 # print simple graphs
 
@@ -111,4 +111,39 @@ for i in range(side, 0, -1):
  * * * *
 * * * * *
 """
-print("for-loop8:")
+try:
+    side = int(input("Please input numbers here:"))
+except ValueError:
+    print("Value error occurs")
+else:
+    print("for-loop8:")
+    for i in range(0, side):
+        for space in range(side, i + 1, -1):
+            print(" ", end="")
+        for asterisk in range(i + 1):
+            print("* ", end="")
+        print("\n", end="")
+
+"""
+    *
+   * *
+  *   *
+ *     *
+* * * * *
+"""
+try:
+    side = int(input("Please input numbers here:"))
+except ValueError:
+    print("Value error occurs")
+else:
+    print("for-loop9:")
+    for i in range(0, side):
+        for space in range(side, i + 1, -1):
+            print(" ", end="")
+        for col in range(i + 1):
+            if col in (0, i) or i == side - 1:
+                print("* ", end="")
+            else:
+                print("  ", end="")
+        print("\n", end="")
+
