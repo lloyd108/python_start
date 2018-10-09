@@ -1,13 +1,22 @@
-def my_while(c):
-    a = 0
-    while True:
-        a += 1
-        if a == 99:
-            print(a, c)
-            break
+import math as m
+import random as r
+
+print(m.ceil(5.25))
+
+print(m.pi)
+
+print(m.e)
+
+for i in range(0,10):
+    print(r.random())
+
+for i in range(10):
+    print(r.randint(1,10))
+
+help(r.randint)
 
 
-c = input("Please input something here:")
+a = 1000000
+b = a
 
-my_while(c)
-
+print(b is a)
