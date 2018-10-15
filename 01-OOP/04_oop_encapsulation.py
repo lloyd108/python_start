@@ -1,10 +1,7 @@
 """
 encapsulation:
 public/private/protected
-
-inherited:
-
-
+super()
 """
 
 

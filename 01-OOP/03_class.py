@@ -28,3 +28,5 @@ a.sayagain()
 A().sayagain()
 
 A.say(B)
+
+dir(a)
