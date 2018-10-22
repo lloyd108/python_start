@@ -1,7 +1,8 @@
-def numout(num):
-    bai = num // 100
-    shi = num % 100 // 10
-    ge = num % 10
-    print("输入数字的百位为{0}、十位为{1}、个位为{2}...".format(bai, shi, ge))
-
-numout(789)
+a = 30000
+b = 30000
+print(a is b)
+print(a, b, sep="///")
+a += 1
+b = 30001
+print(a is b)
+print(a, b, sep="///")
