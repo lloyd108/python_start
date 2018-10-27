@@ -42,4 +42,4 @@ t3 = timeit.timeit(stmt=code2, number=1000)
 t4 = timeit.timeit(stmt="time.sleep(2)", number=10)
 print(t1, t2, t3, t4, sep="/////")
 
-dis(factorial(3))
+# dis(factorial(3))
