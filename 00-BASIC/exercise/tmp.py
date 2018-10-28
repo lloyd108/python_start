@@ -1,5 +1,6 @@
 import math as m
 import random as r
+import dis
 
 print(m.ceil(5.25))
 
@@ -20,3 +21,10 @@ a = 1000000
 b = a
 
 print(b is a)
+
+def test1():
+    a = 1
+    b = a + 3
+    return b
+
+dis.dis(test1)
