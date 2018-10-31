@@ -1,0 +1,24 @@
+DEBUG:root:This is a debug log.
+ERROR:root:This is a error log.
+DEBUG:root:This is a debug log.
+ERROR:root:This is a error log.
+2018-10-30 22:34:48,812 -- DEBUG -- This is a debug log.
+2018-10-30 22:34:48,812 -- ERROR -- This is a error log.
+2018-10-30 22:35:38,349//1540910138.349861 -- DEBUG -- This is a debug log.
+2018-10-30 22:35:38,350//1540910138.350858 -- ERROR -- This is a error log.
+2018-10-30 22:35:54,691 -- DEBUG -- This is a debug log.
+2018-10-30 22:35:54,692 -- ERROR -- This is a error log.
+2018-10-30 22:39:39,101 -- DEBUG -- 12516 -- MainProcess -- This is a debug log.
+2018-10-30 22:39:39,101 -- ERROR -- 12516 -- MainProcess -- This is a error log.
+2018-10-30 22:39:47,537 -- DEBUG -- 12404 -- MainProcess -- This is a debug log.
+2018-10-30 22:39:47,537 -- ERROR -- 12404 -- MainProcess -- This is a error log.
+2018-10-30 22:39:48,729 -- DEBUG -- 22600 -- MainProcess -- This is a debug log.
+2018-10-30 22:39:48,729 -- ERROR -- 22600 -- MainProcess -- This is a error log.
+2018-10-30 22:39:50,392 -- DEBUG -- 24884 -- MainProcess -- This is a debug log.
+2018-10-30 22:39:50,392 -- ERROR -- 24884 -- MainProcess -- This is a error log.
+2018-10-30 22:41:14,381 -- DEBUG -- 23944 -- MainProcess -- This is a debug log.
+2018-10-30 22:41:14,381 -- ERROR -- 23944 -- MainProcess -- This is a error log.
+2018-10-30 22:41:19,456 -- DEBUG -- 12164 -- MainProcess -- This is a debug log.
+2018-10-30 22:41:19,457 -- ERROR -- 12164 -- MainProcess -- This is a error log.
+2018-10-30 22:41:20,747 -- DEBUG -- 5148 -- MainProcess -- This is a debug log.
+2018-10-30 22:41:20,747 -- ERROR -- 5148 -- MainProcess -- This is a error log.
