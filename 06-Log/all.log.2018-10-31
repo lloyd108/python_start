@@ -1,0 +1,5 @@
+2018-10-31 23:01:58,205 -- DEBUG -- 10816 -- MainProcess -- debug message
+2018-10-31 23:01:58,205 -- INFO -- 10816 -- MainProcess -- info message
+2018-10-31 23:01:58,206 -- WARNING -- 10816 -- MainProcess -- warning message
+2018-10-31 23:01:58,206 -- ERROR -- 10816 -- MainProcess -- error message
+2018-10-31 23:01:58,206 -- CRITICAL -- 10816 -- MainProcess -- critical message
