@@ -12,7 +12,8 @@ print("Main thread start...")
 
 t1 = threading.Thread(target=func, args=())
 
-# t1.setDaemon(True)
+t1.setDaemon(True)
+# t1.daemon = True
 
 t1.start()
 
