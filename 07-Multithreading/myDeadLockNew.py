@@ -30,18 +30,20 @@ def my_func_1():
 def my_func_2():
     print("func_2 starting...")
     print("func_2 acquiring lock2")
-    lock_2.acquire(timeout=3)
-    print("func_2 acquired lock2")
-    print("func_2 waiting for lock1")
-    time.sleep(10)
-    print("func_2 acquiring lock1")
-    lock_1.acquire(timeout=3)
-    print("func_2 acquired lock1")
-    time.sleep(10)
-    lock_1.release()
-    print("func_2 released lock1")
-    lock_2.release()
-    print("func_2 released lock2")
+    rst1 = lock_2.acquire(timeout=3)
+    if rst1:
+        print("func_2 acquired lock2")
+        print("func_2 waiting for lock1")
+        time.sleep(10)
+        print("func_2 acquiring lock1")
+        rst2 = lock_1.acquire(timeout=3)
+        if rst2:
+            print("func_2 acquired lock1")
+            time.sleep(10)
+            lock_1.release()
+            print("func_2 released lock1")
+        lock_2.release()
+        print("func_2 released lock2")
     print("func_2 done...")
 
 
