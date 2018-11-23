@@ -1,0 +1,19 @@
+<School attr="xmlattr" type="xmltype">
+    <Student gender="male">
+        <score> math&lt;80 </score>
+        <name test="&#10;            haha&#10;        &#10;            haha&#10;        ">
+            haha
+        </name>
+        <age>18</age>
+    <Adder attr="OK...">Nothing special</Adder><Adder attr="OK...">Nothing special</Adder><Adder attr="OK...">Nothing special</Adder><Adder attr="OK...">Nothing special</Adder><Adder attr="OK...">Nothing special</Adder><Adder attr="OK...">Nothing special</Adder><Adder attr="OK...">Nothing special</Adder><Adder attr="OK...">Nothing special</Adder><Adder attr="OK...">Nothing special</Adder><Adder attr="OK...">Nothing special</Adder><Adder attr="OK...">Nothing special</Adder><Adder attr="OK...">Nothing special</Adder></Student>
+
+    <Student>
+        <name test="hahahaha">haha</name>
+        <age>18</age>
+    </Student>
+
+    <Student>
+        <name test="hahahaha">haha</name>
+        <age>18</age>
+    </Student>
+</School>
