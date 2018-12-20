@@ -1,6 +1,48 @@
 div{
     width:200px;
-    height:200px;
+    height:100px;
     background-color:red;
     color: brown;
 }
+
+.headline{
+	background-image: url(../exercise/pics/6.jpg);
+}
+
+.headline:hover{
+	background-image: url(../exercise/pics/1.jpg);
+	color:white;
+	background-color: yellow;
+}
+
+#h1{
+	color: green;
+	height:100px;
+	/* width: 500px; */
+	background-color: gray;
+}
+
+#h2{
+	color: yellow;
+	height:50px;
+	width:250px;
+	background-color: gray;
+
+}
+
+#h2:hover{
+	color:white;
+	background-color: yellow
+}
+
+#h3{
+	color:blue;
+	height:200px;
+	background-color: gray;
+	border: 10px solid #0318FF;
+}
+
+#h3:hover{
+	color: white;
+}
+
