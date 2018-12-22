@@ -1,0 +1,20 @@
+div{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	margin: 0 auto;
+	border: 2px dashed black;
+/*	float: left;*/
+}
+
+div:hover{
+	background: green;
+	text-align: center;
+	line-height: 200px;
+}
+
+div div{
+	background: red;
+	width: 100px;
+	height: 100px;
+}

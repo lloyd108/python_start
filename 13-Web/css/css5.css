@@ -1,0 +1,11 @@
+.box1{
+	width: 200px;
+	height: 200px;
+	background: red;
+	text-align: center;
+	line-height: 200px;
+	margin: 0 auto;
+	position: relative;
+	top: 200px;
+	left: 200px;
+}
