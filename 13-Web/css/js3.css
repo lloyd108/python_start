@@ -1,0 +1,10 @@
+div	{
+	height: 300px;
+	width: 300px;
+	background: gray;
+	float: left;
+}
+
+a {
+	background: yellow;
+}

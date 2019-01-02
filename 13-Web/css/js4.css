@@ -1,0 +1,11 @@
+.item1{
+	width: 200px;
+	height: 200px;
+	background: gray;
+}
+
+.item1:hover {
+	background: green;
+	text-align: center;
+	line-height: 200px;
+}
