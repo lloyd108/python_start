@@ -1,0 +1,15 @@
+.item1{
+	min-height: 200px;
+	width: 200px;
+	background: gray;
+	text-align: center;
+	line-height: 200px;
+}
+
+
+.item2{
+	height: 1px;
+	width: 1px;
+	background: green;
+	text-align: center;
+}
