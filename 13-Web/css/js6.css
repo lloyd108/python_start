@@ -1,0 +1,13 @@
+.item1{
+  width: 200px;
+  min-height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background-color: green;
+}
+
+
+.item2{
+  background-color: blue;
+  float: left;
+}
