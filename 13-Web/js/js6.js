@@ -22,7 +22,7 @@ function myObj(name, age, gender){
   this.age = age;
   this.gender = gender;
   this.say = function(){
-    alert("new type..." + name + age + gender);
+    alert("new type...xxx" + name + age + gender);
   }
   console.log(this);
 };

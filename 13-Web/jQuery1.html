@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery1 new start</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <script>console.log($)</script>
+    <div id="item1" class="box">simple div1</div>
+    <div id="item2" class="box">complex div2</div>
+    <div class="box">
+        <div class="boxx">
+            <div class="boxxx">
+                <div class="boxxxx">divvvv</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        console.log($('#item1'))
+        console.log($('.box'))
+        console.log($('.box').children())
+        console.log($('#item2').siblings())
+        $('#item2').css('background-color','yellow')
+    </script>
+</body>
+</html>
