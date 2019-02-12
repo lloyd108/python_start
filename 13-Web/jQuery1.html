@@ -5,6 +5,11 @@
     <title>jQuery1 new start</title>
     <script src="js/jquery-3.3.1.js"></script>
     <style>
+        *{
+            margin: 20px;
+            padding: 20px;
+            border: solid;
+         }
         .box{
             width: 200px;
             height: 200px;
@@ -30,6 +35,9 @@
         console.log($('.box').children())
         console.log($('#item2').siblings())
         $('#item2').css('background-color','yellow')
+        $('#item1').click(function(){
+            alert("what....");
+        })
     </script>
 </body>
 </html>
