@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery3...</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jQuery2.css">
+    <style type="text/css">
+        .box1{
+            background-color: pink;
+        }
+        .box2{
+            background-color: green;
+        }
+        .box3{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box2">
+            <div class="box3">
+                <button class="btn1">button1</button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn2">button2</button>
+    </div>
+
+    <script>
+        $('.btn1').mouseover(function(){
+            $('.btn1').css('border','solid black');
+        });
+
+        $('.btn1').mouseout(function(){
+            $('.btn1').css('border','solid red');
+        });
+
+        $('.box1').click(function(){
+            $('.box1').css('background-color','black');
+        });
+
+        $('.box2').click(function(){
+            $('.box2').css('background-color','black');
+            return false;
+        });
+
+        $('.box3').click(function(){
+            $('.box3').css('background-color','black');
+        });
+    </script>
+</body>
+</html>
