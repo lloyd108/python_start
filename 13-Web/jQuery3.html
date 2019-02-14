@@ -31,16 +31,18 @@
     </div>
 
     <script>
-        $('.btn1').mouseover(function(){
+        $('.btn1').mouseover(function(e){
             $('.btn1').css('border','solid black');
+            console.log(e);
         });
 
         $('.btn1').mouseout(function(){
             $('.btn1').css('border','solid red');
         });
 
-        $('.box1').click(function(){
+        $('.box1').click(function(e){
             $('.box1').css('background-color','black');
+            console.log(e);
         });
 
         $('.box2').click(function(){

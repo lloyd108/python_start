@@ -23,6 +23,15 @@
         $('.btn1').mouseout(function(){
             $('.btn1').css('border','solid red');
         });
+
+        $('.btn2').click(function(e){
+            alert('button2 is clicked...');
+            console.log(e.clientX, e);
+        });
+
+        $(window).mousemove(function(e){
+            console.log(e.clientX, e.clientY);
+        });
     </script>
 </body>
 </html>

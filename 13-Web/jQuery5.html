@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery4...</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jQuery2.css">
+    <style type="text/css">
+        .btn{
+            margin: 0px;
+            padding: 0px;
+            border: solid black;
+            width: 100px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        .item{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 30%;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button class="btn1">button1</button>
+    </div>
+
+    <button class="btn">append</button>
+    <button class="btn">prepend</button>
+
+    <div class="ept"></div>
+
+
+    <script>
+        $('.btn1').mouseover(function(){
+            $('.btn1').css('border','solid black');
+        });
+
+        $('.btn1').mouseout(function(){
+            $('.btn1').css('border','solid red');
+        });
+
+        $(window).mousemove(function(e){
+            console.log(e.clientX, e.clientY);
+        });
+
+        $('.btn').eq(0).click(function(){
+            var oDiv = $('<div class="item"></div>');
+            oDiv.css('background-color','blue');
+            $('.ept').append(oDiv);
+            //oDiv.appendTo($('.ept'));
+        });
+
+        $('.btn').eq(1).click(function(){
+            var oDiv = $('<div class="item"></div>');
+            oDiv.css('background-color','green');
+            oDiv.prependTo($('.ept'));
+            //$('.ept').appendTo(oDiv);
+        });
+    </script>
+</body>
+</html>
