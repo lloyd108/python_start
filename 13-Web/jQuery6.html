@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery4...</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jQuery2.css">
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <div>
+        <button class="btn1">button1</button>
+    </div>
+
+    <button class="btn">append</button>
+    <button class="btn">prepend</button>
+
+    <div class="ept"></div>
+
+
+    <script>
+        $('.btn1').mouseover(function(){
+            $('.btn1').css('border','solid black');
+        });
+
+        $('.btn1').mouseout(function(){
+            $('.btn1').css('border','solid red');
+        });
+
+        $(window).mousemove(function(e){
+            console.log(e.clientX, e.clientY);
+        });
+
+    </script>
+</body>
+</html>
